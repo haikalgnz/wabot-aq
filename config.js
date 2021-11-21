@@ -1,25 +1,39 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.owner = ['6281515860089', '6281334177340'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = ['6289696454872','62896763806592'] // Put your number here
+global.mods = ['6289696454872'] // Want some help?
+global.prems = ['6289696454872','62896763806592'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  jonaz: 'https://jonaz-api-v2.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
+  pencarikode: 'https://pencarikode.xyz',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
+  zekais: 'http://zekais-api.herokuapp.com',
   zeks: 'https://api.zeks.xyz',
-  pencarikode: 'https://pencarikode.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  vhtear: 'https://api.vhtear.com',
+  lolhum: 'https://api.lolhuman.xyz',
+  fxc7: 'https://fxc7-api.herokuapp.com',
+  aqul: 'https://api.justaqul.xyz'
+
 }
-global.APIKeys = { // APIKey Here
+global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://pencarikode.xyz': 'APIKEY',
+  'https://api.xteam.xyz': 'HIRO',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'apivinz',
-  'https://pencarikode.xyz': 'pais',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://api.zeks.xyz': 'FVe0JFCdME58YSKmhoDWdRtyuJt',
+  'https://api.lolhuman.xyz': '929b48b9aa5a91abed8526cd',
+  'https://api.vhtear.com': 'sayahafiz',
+  'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
+  'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
+  'http://zekais-api.herokuapp.com': 'grqgD6pU'
 }
 
 // Sticker WM
